@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Level Up DB",
+            "database": "${workspaceFolder:levelup}/db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Level Up DB",
+            "database": "${workspaceFolder:levelup}/db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Level Up DB",
+            "database": "${workspaceFolder:levelup}/db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Level Up DB",
+            "database": "${workspaceFolder:levelup}/db.sqlite3"
+        }
+    ]
+}
