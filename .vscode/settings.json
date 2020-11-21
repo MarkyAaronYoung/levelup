@@ -23,6 +23,20 @@
             "driver": "SQLite",
             "name": "Level Up DB",
             "database": "${workspaceFolder:levelup}/db.sqlite3"
+            
+        },
+        {
+            "editor.tokenColorCustomizations": {
+                "textMateRules": [
+                  {
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
+                      "foreground": "#FF0000"
+                    }
+                  }
+                ]
+              },
         }
-    ]
+    ],
+    "python.pythonPath": "/Users/markyoung/.local/share/virtualenvs/levelup-tAA01gYM/bin/python"
 }
