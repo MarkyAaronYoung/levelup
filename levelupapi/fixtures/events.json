@@ -3,11 +3,30 @@
         "model": "levelupapi.event",
         "pk": 1,
         "fields": {
-            "description": "Party of farts",
-            "game": 1,
             "organizer": 1,
+            "description": "Welcome To at lunch",
+            "game": 1,
+            "datetime": "2020-08-28T14:51:39.989Z"
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "organizer": 1,
+            "description": "Friday night Settlers and drinks",
+            "game": 1,
+            "datetime": "2020-08-28T14:51:39.989Z"
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 3,
+        "fields": {
+            "organizer": 1,
+            "description": "Vale of the Frost King campaign. All weekend.",
+            "game": 1,
             "datetime": "2020-08-28T14:51:39.989Z"
         }
     }
-
 ]
