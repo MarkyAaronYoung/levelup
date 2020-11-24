@@ -5,7 +5,8 @@ class Event(models.Model):
     game = models.ForeignKey("Game", on_delete = CASCADE)
     organizer = models.ForeignKey("Gamer", on_delete = CASCADE)
     description = models.TextField()
-    datetime = models.DateTimeField()
+    date = models.DateField(null=True)
+    time = models.TimeField(null=True)
 
     participants = models.ManyToManyField(
         "Gamer",
