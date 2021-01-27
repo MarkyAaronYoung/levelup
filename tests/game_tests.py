@@ -29,7 +29,7 @@ class GameTests(APITestCase):
         self.token = json_response["token"]
 
         # Assert that a user was created
-        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
 
         # SEED DATABASE WITH ONE GAME TYPE
         # Tthis is needed because the API does not expose a /gametypes
@@ -62,7 +62,7 @@ class GameTests(APITestCase):
         json_response = json.loads(response.content)
 
         # Assert that the game was created
-        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
 
         # Assert that the properties on the created resource are correct
         self.assertEqual(json_response["title"], "Clue")
