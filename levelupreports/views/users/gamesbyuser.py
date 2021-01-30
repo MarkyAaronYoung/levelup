@@ -18,7 +18,7 @@ def usergame_list(request):
                 g.id,
                 g.title,
                 g.maker,
-                g.gametype_id,
+                g.game_type_id,
                 g.number_of_players,
                 g.skill_level,
                 u.id user_id,
@@ -63,7 +63,7 @@ def usergame_list(request):
                 game.maker = row["maker"]
                 game.skill_level = row["skill_level"]
                 game.number_of_players = row["number_of_players"]
-                game.gametype_id = row["gametype_id"]
+                game.gametype_id = row["game_type_id"]
 
                 # Store the user's id
                 uid = row["user_id"]
